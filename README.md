@@ -2,7 +2,7 @@
     - Ghanian-naming_culture
 ​
 ## Project description
-    - This is a web application used by Ghanians' for naming their children. It takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.  
+    - This is a web application used by Ghanaians for naming their children. It takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.  
 ​
 ## Author(s) information
     - Nixon Kipkorir KOech
