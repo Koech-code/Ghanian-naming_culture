@@ -1,0 +1,35 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: silver;
+}
+
+.day, .month, .year{
+    color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+}
+
+.month{
+    padding-right:16px; 
+}
+/* .day, input{
+    align-items: center;
+} */
+input:hover{
+    background-color: paleturquoise;
+}
+input:focus{
+    box-shadow: 0px 0px 5px forestgreen;
+    outline: none;
+    border-radius: 10px;
+}
+
+#calculate{
+    margin: 2% 0 0 40%;
+    background-color: tomato;
+    color: white;
+    box-shadow: 1px 3px peru;
+    width: 8vw;
+}
