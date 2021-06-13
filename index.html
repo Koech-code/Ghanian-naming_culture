@@ -10,29 +10,37 @@
 </head>
 <body>
     <div class="jumbotron">This is my web application</div>
-    <form id="form">
-        <h2>Fill in the below fields to get your birthday</h2>
-        <div class="day">
-            <label for="">Day</label>
-            <input type="text" class="input">
+    <div class="alert alert-success" role="alert">
+        <p id="output"></p>
+      </div>
+      <form id="AkanForm">
+        <div class="mb-3">
+          <label for="century" class="fieldName">Enter your century</label>
+          <input type="number" class="centuryField" id="century">
         </div>
-        <div class="month">
-            <label for="">Month</label>
-            <input type="text" class="input">
+        <div class="mb-3">
+            <label for="year" class="fieldName">Enter the year</label>
+            <input type="number" class="yearField" id="year">
         </div>
-        <div class="year">
-            <label for="">Year</label>
-            <input type="text" class="input">
+        <div class="mb-3">
+            <label for="month" class="fieldName">Enter the month</label>
+            <input type="number" class="monthField" id="month">
         </div>
-        <button id="calculate" type = "button" onclick = "calculateBirthDay()" value = "Calculate">Calculate</button>
-        <h3>Select your gender</h3>
-    <div id="radio">
-        Male: <input  type="radio" name="gender" value="male">
-        Female: <input type="radio" name="gender" value="female">
-        Other: <input type="radio" name="gender" value="other" checked>
-    </div>
-        <button id="submit"type = "button" onclick = "Submit()" value = "Submit">Submit</button>
-    </form>
+        <div class="mb-3">
+            <label for="day" class="fieldName">Date of the month</label>
+            <input type="number" class="dateField" id="day">
+        </div>
+        <div class="mb-3">
+            <label for="gender" class="fieldName">select gender</label>
+                <select class="form-gender" id="gender">
+                  <option></option>
+                    <option value="female">female</option>
+                       <option value="male">male</option>
+                    <option value="Other">other</option>
+            </select>
+          </div>
+        <button  class="btn btn-secondary" type="submit">Submit</button>
+      </form>
     <script src="Static/JS/main.js"></script>
 </body>
 </html> 
