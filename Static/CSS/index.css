@@ -4,14 +4,30 @@ body{
     background-color: silver;
 }
 
-.day, .month, .year{
+#day, #month, #year{
     color: rebeccapurple;
     display: flex;
     justify-content: center;
     padding-top: 1%;
 }
 
-.month{
+.description1{
+    color: white;
+    background-color: black;
+}
+
+#picture2{
+    width: 60vw;
+    height: 70vh;
+    background-color: cadetblue;
+}
+
+#pictures{
+    display: flex;
+    justify-content: center;
+}
+
+#month{
     padding-right:16px; 
 }
 /* .day, input{
@@ -58,4 +74,8 @@ h3{
 #radio{
   text-align: center;
   padding-left: 15%;
+}
+
+#styled-form{
+    background-color: cornflowerblue;
 }
