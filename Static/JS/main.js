@@ -1,10 +1,12 @@
-function calculateBirthDay(day,month,year){
-    let dd=day
-    let mm=month
-    let yy=year
-    let temp1=year.split("");
-    let temp2=temp1.slice("");
-    let yy=parseInt("".join(((temp1.split("")).slice(0,2))));
-    let cc=parseInt("".join(((temp2.split("")).slice(2,2))));
-    return ( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) % 7;
-};
+var form=document.getElementById("form")
+form.addEventListener('submit',function displayAkanNames(event){
+  event.preventDefault()
+  let cc=document.getElementById('century').value
+  let dd=document.getElementById('day').value
+  let mm=document.getElementsById('month').value
+  let yy=document.getElementById('year').value
+  let gender=document.getElementById('gender').value
+  let males=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"]
+  let females=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]
+  if()
+})
