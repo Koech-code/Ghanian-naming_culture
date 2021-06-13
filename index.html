@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="jumbotron">This is my web application</div>
-    <form action="">
+    <form id="form">
         <h2>Fill in the below fields to get your birthday</h2>
         <div class="day">
             <label for="">Day</label>
@@ -26,11 +26,14 @@
         </div>
         <button id="calculate" type = "button" onclick = "calculateBirthDay()" value = "Calculate">Calculate</button>
         <h3>Select your gender</h3>
-        Male: <input type="radio" name="gender" value="male">
+    <div id="radio">
+        Male: <input  type="radio" name="gender" value="male">
         Female: <input type="radio" name="gender" value="female">
         Other: <input type="radio" name="gender" value="other" checked>
-        <button type = "button" onclick = "Submit()" value = "Submit">Submit</button>
+    </div>
+        <button id="submit"type = "button" onclick = "Submit()" value = "Submit">Submit</button>
     </form>
     <script src="Static/JS/main.js"></script>
 </body>
-</html>
+</html> 
+
