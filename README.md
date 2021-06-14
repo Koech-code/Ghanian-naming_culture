@@ -22,7 +22,8 @@
     - Click the submit button to see what my Akan name would be
   
 ## Live link
-    Deployed project can be accessed here -  [Ghanian-naming_culture](https://Koech-code.github.io/Ghanian-naming_culture/)
+    Deployed project can be accessed here
+    [Live demo link] (https://koech-code.github.io/Ghanian-naming_culture/)
 ​
 ## Technologies used
     - HTML
